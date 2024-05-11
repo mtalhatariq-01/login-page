@@ -18,7 +18,7 @@ const Button: FC<ButtonProps> = ({
     <button
       type={type}
       onClick={onClick}
-      className={`bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded ${className}`}
+      className={` text-white font-bold py-2 px-4 rounded ${className}`}
     >
       {children}
     </button>
